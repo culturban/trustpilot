@@ -63,11 +63,11 @@
 		<td valign="top" style="padding-bottom:0">
 			<p style="background:url('{$this_path_ssl|escape:'htmlall':'UTF-8'}img/btn-sprite.png') no-repeat scroll 0 -461px transparent; font-size:14px;margin:0 auto;width:305px;" id="tp_accno">
 				{if $lang == 'fr'}
-					<a target="_blank" href="http://business.trustpilot.fr/forms/prestashop-fr" style="background:url('{$this_path_ssl|escape:'htmlall':'UTF-8'}img/btn-sprite.png') no-repeat scroll 100% -519px transparent;color: #FFFFFF;display: block;font-size: 13px;font-weight: bold;height: 30px;padding: 11px 5px 0;text-align: center;text-transform: uppercase;width: 300px;">
+					<a target="_blank" href="http://business.trustpilot.fr/signup?utm_campaign=Module-Prestashop&utm_medium=apps&utm_source=Prestashop" style="background:url('{$this_path_ssl|escape:'htmlall':'UTF-8'}img/btn-sprite.png') no-repeat scroll 100% -519px transparent;color: #FFFFFF;display: block;font-size: 13px;font-weight: bold;height: 30px;padding: 11px 5px 0;text-align: center;text-transform: uppercase;width: 300px;">
 						{l s='Open a FREE account' mod='trustpilot'}
 					</a>
 				{else}
-					<a target="_blank" href="http://business.trustpilot.com/forms/prestashop-en" style="background:url('{$this_path_ssl|escape:'htmlall':'UTF-8'}img/btn-sprite.png') no-repeat scroll 100% -519px transparent;color: #FFFFFF;display: block;font-size: 13px;font-weight: bold;height: 30px;padding: 11px 5px 0;text-align: center;text-transform: uppercase;width: 300px;">
+					<a target="_blank" href="http://business.trustpilot.com/signup?utm_campaign=Module-Prestashop&utm_medium=apps&utm_source=Prestashop" style="background:url('{$this_path_ssl|escape:'htmlall':'UTF-8'}img/btn-sprite.png') no-repeat scroll 100% -519px transparent;color: #FFFFFF;display: block;font-size: 13px;font-weight: bold;height: 30px;padding: 11px 5px 0;text-align: center;text-transform: uppercase;width: 300px;">
 						{l s='Open a FREE account' mod='trustpilot'}
 					</a>
 				{/if}
